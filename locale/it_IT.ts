@@ -3332,6 +3332,30 @@ Clicca &lt;b&gt;Scarica&lt;/b&gt; per accedere alla pagina di scaricamento.</tra
     </message>
 </context>
 <context>
+    <name>Options</name>
+    <message>
+        <location filename="../options.ui" line="13"/>
+        <source>Options</source>
+        <translation type="unfinished">Opzioni</translation>
+    </message>
+    <message>
+        <location filename="../options.ui" line="19"/>
+        <source>Imagine searching for the word &apos;cats&apos;. One dictionary lists
+it as a synonym for &apos;cat&apos;, another one only knows &apos;cat&apos;
+alone. With this option on, the first dictionary would help
+discover the main word &apos;cat&apos; which would be added to the
+query, and both dictionaries would include a definition for
+&apos;cat&apos; in response to the &apos;cats&apos; query. This is very useful in
+most cases, and thus it is recommended to keep this on.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../options.ui" line="28"/>
+        <source>Inject main forms of synonyms into search queries</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>OrderAndProps</name>
     <message>
         <location filename="../orderandprops.ui" line="14"/>

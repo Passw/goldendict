@@ -1,0 +1,2 @@
+./build/moc_ffmpegaudioplayer.cpp
+./build/moc_audioplayerinterface.cpp

@@ -1,5 +1,7 @@
 *.o
 *~
+*swp
+compile_commands.json
 
 mouseover_win32/*.dll
 mouseover_win32/*.a

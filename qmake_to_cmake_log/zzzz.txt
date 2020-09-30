@@ -1,0 +1,37 @@
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/GoldenDict_autogen/mocs_compilation.cpp.o: in function `ExternalAudioPlayer::qt_metacast(char const*)':
+mocs_compilation.cpp:(.text+0x4222): undefined reference to `AudioPlayerInterface::qt_metacast(char const*)'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/GoldenDict_autogen/mocs_compilation.cpp.o: in function `ExternalAudioPlayer::qt_metacall(QMetaObject::Call, int, void**)':
+mocs_compilation.cpp:(.text+0x4252): undefined reference to `AudioPlayerInterface::qt_metacall(QMetaObject::Call, int, void**)'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/GoldenDict_autogen/mocs_compilation.cpp.o: in function `MultimediaAudioPlayer::qt_metacast(char const*)':
+mocs_compilation.cpp:(.text+0xaebe): undefined reference to `AudioPlayerInterface::qt_metacast(char const*)'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/GoldenDict_autogen/mocs_compilation.cpp.o: in function `MultimediaAudioPlayer::qt_metacall(QMetaObject::Call, int, void**)':
+mocs_compilation.cpp:(.text+0xaeee): undefined reference to `AudioPlayerInterface::qt_metacall(QMetaObject::Call, int, void**)'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/GoldenDict_autogen/mocs_compilation.cpp.o:(.data.rel.ro+0x4c0): undefined reference to `AudioPlayerInterface::staticMetaObject'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/GoldenDict_autogen/mocs_compilation.cpp.o:(.data.rel.ro+0xf00): undefined reference to `AudioPlayerInterface::staticMetaObject'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/GoldenDict_autogen/mocs_compilation.cpp.o: in function `AudioPlayerInterface::~AudioPlayerInterface()':
+mocs_compilation.cpp:(.text._ZN20AudioPlayerInterfaceD2Ev[_ZN20AudioPlayerInterfaceD5Ev]+0xf): undefined reference to `vtable for AudioPlayerInterface'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/GoldenDict_autogen/mocs_compilation.cpp.o:(.data.rel.ro._ZTI21MultimediaAudioPlayer[_ZTI21MultimediaAudioPlayer]+0x10): undefined reference to `typeinfo for AudioPlayerInterface'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/GoldenDict_autogen/mocs_compilation.cpp.o:(.data.rel.ro._ZTI19ExternalAudioPlayer[_ZTI19ExternalAudioPlayer]+0x10): undefined reference to `typeinfo for AudioPlayerInterface'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/mainwindow.cc.o: in function `DictsPaneWidget::DictsPaneWidget(QWidget*)':
+mainwindow.cc:(.text._ZN15DictsPaneWidgetC2EP7QWidget[_ZN15DictsPaneWidgetC5EP7QWidget]+0x36): undefined reference to `vtable for DictsPaneWidget'
+/usr/bin/ld: mainwindow.cc:(.text._ZN15DictsPaneWidgetC2EP7QWidget[_ZN15DictsPaneWidgetC5EP7QWidget]+0x48): undefined reference to `vtable for DictsPaneWidget'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/btreeidx.cc.o: in function `BtreeIndexing::BtreeWordSearchRequest::findMatches()':
+btreeidx.cc:(.text+0x83e): undefined reference to `wildcardsToRegexp(QString const&)'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/articleview.cc.o: in function `ArticleView::highlightFTSResults()':
+articleview.cc:(.text+0x11a01): undefined reference to `wildcardsToRegexp(QString const&)'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/audioplayerfactory.cc.o: in function `AudioPlayerInterface::AudioPlayerInterface()':
+audioplayerfactory.cc:(.text._ZN20AudioPlayerInterfaceC2Ev[_ZN20AudioPlayerInterfaceC5Ev]+0x20): undefined reference to `vtable for AudioPlayerInterface'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/audioplayerfactory.cc.o: in function `Ffmpeg::AudioPlayer::AudioPlayer()':
+audioplayerfactory.cc:(.text._ZN6Ffmpeg11AudioPlayerC2Ev[_ZN6Ffmpeg11AudioPlayerC5Ev]+0x1c): undefined reference to `vtable for Ffmpeg::AudioPlayer'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/audioplayerfactory.cc.o: in function `Ffmpeg::AudioPlayer* qobject_cast<Ffmpeg::AudioPlayer*>(QObject*)':
+audioplayerfactory.cc:(.text._Z12qobject_castIPN6Ffmpeg11AudioPlayerEET_P7QObject[_Z12qobject_castIPN6Ffmpeg11AudioPlayerEET_P7QObject]+0x16): undefined reference to `Ffmpeg::AudioPlayer::staticMetaObject'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/multimediaaudioplayer.cc.o: in function `MultimediaAudioPlayer::onMediaPlayerError()':
+multimediaaudioplayer.cc:(.text+0x329): undefined reference to `AudioPlayerInterface::error(QString)'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/externalaudioplayer.cc.o: in function `ExternalAudioPlayer::onViewerDestroyed(QObject*)':
+externalaudioplayer.cc:(.text+0x3be): undefined reference to `AudioPlayerInterface::error(QString)'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/dictheadwords.cc.o: in function `DictHeadwords::filterChanged()':
+dictheadwords.cc:(.text+0x13b6): undefined reference to `wildcardsToRegexp(QString const&)'
+/usr/bin/ld: CMakeFiles/GoldenDict.dir/ftshelpers.cc.o: in function `FtsHelpers::FTSResultsRequest::checkArticles(QVector<unsigned int> const&, QStringList const&, QRegExp const&)':
+ftshelpers.cc:(.text+0x2a1e): undefined reference to `wildcardsToRegexp(QString const&)'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.

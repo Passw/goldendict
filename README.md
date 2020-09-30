@@ -137,3 +137,17 @@ This project is licensed under the <b>GNU GPLv3+</b> license, a copy of which ca
 Users looking for support should file an issue in the official [GoldenDict issue tracker](https://github.com/goldendict/goldendict/issues),
 or even better: submit a [pull request](https://github.com/goldendict/goldendict/pulls) if you have a fix available.
 General questions should be asked on the [official GoldenDict forum](http://goldendict.org/forum/).
+
+
+# Build with CMake
+
+```
+
+    cd ~
+    mkdir goldendict_build
+    cd goldendict_build
+    cmake -G Ninja -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=$HOME/INSTALL/goldendict/cmake ../goldendict
+    ninja
+    ninja install
+
+```
