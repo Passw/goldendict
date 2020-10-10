@@ -257,14 +257,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Send &quot;%1&quot; to input line</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Add &quot;%1&quot; to history</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>WARNING: %1</source>
         <translation type="unfinished">akataraki : %1</translation>
     </message>
@@ -274,30 +266,6 @@
     </message>
     <message>
         <source>ERROR: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save sound</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sound files (*.wav *.ogg *.mp3 *.mp4 *.aac *.flac *.mid *.wv *.ape);;All files (*.*)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save image</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Image files (*.bmp *.jpg *.png *.tif);;All files (*.*)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save &amp;image...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save s&amp;ound...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -318,6 +286,38 @@
     </message>
     <message>
         <source>Video: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save &amp;image...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save s&amp;ound...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send &quot;%1&quot; to input line</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Add &quot;%1&quot; to history</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save sound</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sound files (*.wav *.ogg *.mp3 *.mp4 *.aac *.flac *.mid *.wv *.ape);;All files (*.*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Image files (*.bmp *.jpg *.png *.tif);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4480,20 +4480,20 @@ clears its network cache from disk during exit.</source>
 <context>
     <name>ResourceToSaveHandler</name>
     <message>
-        <source>ERROR: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Resource saving error: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>The referenced resource failed to download.</source>
         <translation type="unfinished">Apakañanaka pantjiwa</translation>
     </message>
     <message>
         <source>WARNING: %1</source>
         <translation type="unfinished">akataraki : %1</translation>
+    </message>
+    <message>
+        <source>ERROR: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resource saving error: </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

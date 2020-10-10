@@ -2,6 +2,7 @@
 *~
 *swp
 compile_commands.json
+CMakeLists.txt.user
 
 mouseover_win32/*.dll
 mouseover_win32/*.a

@@ -246,105 +246,105 @@
     </message>
     <message>
         <location filename="../articleview.cc" line="1362"/>
-        <location filename="../articleview.cc" line="1555"/>
+        <location filename="../articleview.cc" line="1591"/>
         <source>The referenced resource doesn&apos;t exist.</source>
         <translation>Den refererade resursen finns inte.</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1402"/>
+        <location filename="../articleview.cc" line="1438"/>
         <source>The referenced audio program doesn&apos;t exist.</source>
         <translation>Det refererade ljudprogrammet finns inte.</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2026"/>
+        <location filename="../articleview.cc" line="2062"/>
         <source>Failed to play sound file: %1</source>
         <translation>Det gick inte att spela upp ljudfil: %1</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2082"/>
+        <location filename="../articleview.cc" line="2118"/>
         <source>WARNING: Audio Player: %1</source>
         <translation>VARNING: Ljudspelare: %1</translation>
     </message>
     <message>
         <location filename="../articleview.cc" line="1285"/>
         <location filename="../articleview.cc" line="1321"/>
-        <location filename="../articleview.cc" line="1555"/>
+        <location filename="../articleview.cc" line="1591"/>
         <source>ERROR: %1</source>
         <translation>FEL: %1</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1954"/>
+        <location filename="../articleview.cc" line="1990"/>
         <source>Save sound</source>
         <translation>Spara ljud</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1956"/>
+        <location filename="../articleview.cc" line="1992"/>
         <source>Sound files (*.wav *.ogg *.mp3 *.mp4 *.aac *.flac *.mid *.wv *.ape);;All files (*.*)</source>
         <translation>Ljudfiler (*.wav *.ogg *.mp3 *.mp4 *.aac *.flac *.mid *.wv *.ape);;Alla filer (*.*)</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1969"/>
+        <location filename="../articleview.cc" line="2005"/>
         <source>Save image</source>
         <translation>Spara bild</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1971"/>
+        <location filename="../articleview.cc" line="2007"/>
         <source>Image files (*.bmp *.jpg *.png *.tif);;All files (*.*)</source>
         <translation>Bildfiler (*.bmp *.jpg *.png *.tif);;Alla filer (*.*)</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1710"/>
+        <location filename="../articleview.cc" line="1746"/>
         <source>&amp;Open Link</source>
         <translation>Öppna &amp;länk</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1716"/>
+        <location filename="../articleview.cc" line="1752"/>
         <source>Open Link in New &amp;Tab</source>
         <translation>Öppna länk i ny &amp;flik</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1723"/>
+        <location filename="../articleview.cc" line="1759"/>
         <source>Open Link in &amp;External Browser</source>
         <translation>Öppna länk i extern &amp;webbläsare</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1738"/>
+        <location filename="../articleview.cc" line="1774"/>
         <source>Save &amp;image...</source>
         <translation>Spara &amp;bild …</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1746"/>
+        <location filename="../articleview.cc" line="1782"/>
         <source>Save s&amp;ound...</source>
         <translation>Spara l&amp;jud …</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1765"/>
+        <location filename="../articleview.cc" line="1801"/>
         <source>&amp;Look up &quot;%1&quot;</source>
         <translation>&amp;Slå upp &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1773"/>
+        <location filename="../articleview.cc" line="1809"/>
         <source>Look up &quot;%1&quot; in &amp;New Tab</source>
         <translation>Slå upp &quot;%1&quot; i &amp;ny flik</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1778"/>
+        <location filename="../articleview.cc" line="1814"/>
         <source>Send &quot;%1&quot; to input line</source>
         <translation>Skicka &quot;%1&quot; till sökfältet</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1784"/>
         <location filename="../articleview.cc" line="1820"/>
+        <location filename="../articleview.cc" line="1856"/>
         <source>&amp;Add &quot;%1&quot; to history</source>
         <translation>&amp;Lägg till &quot;%1&quot; i historiken</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1798"/>
+        <location filename="../articleview.cc" line="1834"/>
         <source>Look up &quot;%1&quot; in %2</source>
         <translation>Slå upp &quot;%1&quot; i %2</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1806"/>
+        <location filename="../articleview.cc" line="1842"/>
         <source>Look up &quot;%1&quot; in %2 in &amp;New Tab</source>
         <translation>Slå upp &quot;%1&quot; i %2 i &amp;ny flik</translation>
     </message>
@@ -353,7 +353,7 @@
         <translation type="obsolete">VARNING: Ljudspelare för FFmpeg: %1</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2075"/>
+        <location filename="../articleview.cc" line="2111"/>
         <source>WARNING: %1</source>
         <translation>VARNING: %1</translation>
     </message>
@@ -362,17 +362,17 @@
         <translation type="obsolete">Det gick inte att köra en spelare när en ljudfil skulle spelas upp: %1</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2041"/>
+        <location filename="../articleview.cc" line="2077"/>
         <source>Failed to create temporary file.</source>
         <translation>Det gick inte att skapa en tillfällig fil.</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2052"/>
+        <location filename="../articleview.cc" line="2088"/>
         <source>Failed to auto-open resource file, try opening manually: %1.</source>
         <translation>Det gick inte att automatiskt öppna en resursfil. Försök att öppna den manuellt: %1.</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2075"/>
+        <location filename="../articleview.cc" line="2111"/>
         <source>The referenced resource failed to download.</source>
         <translation>Det gick inte att hämta den refererade resursen.</translation>
     </message>
@@ -4369,7 +4369,11 @@ from mouse-over, selection, clipboard or command line</source>
     <name>QObject</name>
     <message>
         <location filename="../aard.cc" line="449"/>
+<<<<<<< HEAD
         <location filename="../dsl.cc" line="1775"/>
+=======
+        <location filename="../dsl.cc" line="1767"/>
+>>>>>>> Linux : support TTS
         <source>Article loading error</source>
         <translation>Artikelinläsningsfel</translation>
     </message>
@@ -4534,22 +4538,38 @@ from mouse-over, selection, clipboard or command line</source>
 <context>
     <name>ResourceToSaveHandler</name>
     <message>
+<<<<<<< HEAD
         <location filename="../articleview.cc" line="2999"/>
+=======
+        <location filename="../articleview.cc" line="3039"/>
+>>>>>>> Linux : support TTS
         <source>ERROR: %1</source>
         <translation>FEL: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../articleview.cc" line="2999"/>
+=======
+        <location filename="../articleview.cc" line="3039"/>
+>>>>>>> Linux : support TTS
         <source>Resource saving error: </source>
         <translation>Fel när resurs skulle sparas: </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../articleview.cc" line="3025"/>
+=======
+        <location filename="../articleview.cc" line="3065"/>
+>>>>>>> Linux : support TTS
         <source>The referenced resource failed to download.</source>
         <translation>Det gick inte att hämta den refererade resursen.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../articleview.cc" line="3025"/>
+=======
+        <location filename="../articleview.cc" line="3065"/>
+>>>>>>> Linux : support TTS
         <source>WARNING: %1</source>
         <translation>VARNING: %1</translation>
     </message>

@@ -1397,6 +1397,42 @@ void ArticleView::openLink( QUrl const & url, QUrl const & ref,
       }
     }
 
+    // Workaroud to support TTS under Linux
+    // need to change URL in dictionary *.js file
+    // vim colcobuildoverhaul_switch.js
+    // URL Example:
+    // From::
+    // clicked QUrl("gdtts://localhost/He has helped to raise a lot of money.?engine=espeak")
+    // To::
+    // clicked QUrl("gdprg://localhost/He has helped to raise a lot of money.")
+    QString id_localhost = "localhost";
+
+    for( Config::Programs::const_iterator i = cfg.programs.begin();
+         i != cfg.programs.end(); ++i )
+    {
+      if ( id == id_localhost && ( i->type == Config::Program::Audio ) )
+      {
+        // Found the corresponding program.
+        Programs::RunInstance * req = new Programs::RunInstance;
+
+        connect( req, SIGNAL(finished(QByteArray,QString)),
+                 req, SLOT( deleteLater() ) );
+
+        QString error;
+
+        // Delete the request if it fails to start
+        if ( !req->start( *i, url.path().mid( 1 ), error ) )
+        {
+          delete req;
+
+          QMessageBox::critical( this, "GoldenDict",
+                                 error );
+        }
+
+        return;
+      }
+    }
+
     // Still here? No such program exists.
     QMessageBox::critical( this, "GoldenDict",
                            tr( "The referenced audio program doesn't exist." ) );
