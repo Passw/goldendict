@@ -257,6 +257,14 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Send &quot;%1&quot; to input line</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Add &quot;%1&quot; to history</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>WARNING: %1</source>
         <translation type="unfinished">akataraki : %1</translation>
     </message>
@@ -266,6 +274,30 @@
     </message>
     <message>
         <source>ERROR: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save sound</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sound files (*.wav *.ogg *.mp3 *.mp4 *.aac *.flac *.mid *.wv *.ape);;All files (*.*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Image files (*.bmp *.jpg *.png *.tif);;All files (*.*)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save &amp;image...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save s&amp;ound...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -286,38 +318,6 @@
     </message>
     <message>
         <source>Video: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save &amp;image...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save s&amp;ound...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Send &quot;%1&quot; to input line</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Add &quot;%1&quot; to history</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save sound</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sound files (*.wav *.ogg *.mp3 *.mp4 *.aac *.flac *.mid *.wv *.ape);;All files (*.*)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save image</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Image files (*.bmp *.jpg *.png *.tif);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3436,27 +3436,6 @@ To find &apos;*&apos;, &apos;?&apos;, &apos;[&apos;, &apos;]&apos; symbols use &
     </message>
 </context>
 <context>
-    <name>Options</name>
-    <message>
-        <source>Options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Imagine searching for the word &apos;cats&apos;. One dictionary lists
-it as a synonym for &apos;cat&apos;, another one only knows &apos;cat&apos;
-alone. With this option on, the first dictionary would help
-discover the main word &apos;cat&apos; which would be added to the
-query, and both dictionaries would include a definition for
-&apos;cat&apos; in response to the &apos;cats&apos; query. This is very useful in
-most cases, and thus it is recommended to keep this on.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Inject main forms of synonyms into search queries</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>OrderAndProps</name>
     <message>
         <source>Form</source>
@@ -4480,20 +4459,20 @@ clears its network cache from disk during exit.</source>
 <context>
     <name>ResourceToSaveHandler</name>
     <message>
-        <source>The referenced resource failed to download.</source>
-        <translation type="unfinished">Apakañanaka pantjiwa</translation>
-    </message>
-    <message>
-        <source>WARNING: %1</source>
-        <translation type="unfinished">akataraki : %1</translation>
-    </message>
-    <message>
         <source>ERROR: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Resource saving error: </source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The referenced resource failed to download.</source>
+        <translation type="unfinished">Apakañanaka pantjiwa</translation>
+    </message>
+    <message>
+        <source>WARNING: %1</source>
+        <translation type="unfinished">akataraki : %1</translation>
     </message>
 </context>
 <context>

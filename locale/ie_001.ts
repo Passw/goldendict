@@ -247,124 +247,124 @@
     <message>
         <location filename="../articleview.cc" line="1285"/>
         <location filename="../articleview.cc" line="1321"/>
-        <location filename="../articleview.cc" line="1591"/>
+        <location filename="../articleview.cc" line="1555"/>
         <source>ERROR: %1</source>
         <translation>ERRORE: %1</translation>
     </message>
     <message>
         <location filename="../articleview.cc" line="1362"/>
-        <location filename="../articleview.cc" line="1591"/>
+        <location filename="../articleview.cc" line="1555"/>
         <source>The referenced resource doesn&apos;t exist.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1438"/>
+        <location filename="../articleview.cc" line="1402"/>
         <source>The referenced audio program doesn&apos;t exist.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1746"/>
+        <location filename="../articleview.cc" line="1710"/>
         <source>&amp;Open Link</source>
         <translation>&amp;Aperter li ligament</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1752"/>
+        <location filename="../articleview.cc" line="1716"/>
         <source>Open Link in New &amp;Tab</source>
         <translation>Aperter li ligament in nov car&amp;te</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1759"/>
+        <location filename="../articleview.cc" line="1723"/>
         <source>Open Link in &amp;External Browser</source>
         <translation>Aperter li ligament in li &amp;extern navigator</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1774"/>
+        <location filename="../articleview.cc" line="1738"/>
         <source>Save &amp;image...</source>
         <translation>Gardar li &amp;image...</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1782"/>
+        <location filename="../articleview.cc" line="1746"/>
         <source>Save s&amp;ound...</source>
         <translation>Gardar li s&amp;on...</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1801"/>
+        <location filename="../articleview.cc" line="1765"/>
         <source>&amp;Look up &quot;%1&quot;</source>
         <translation>S&amp;erchar «%1»</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1809"/>
+        <location filename="../articleview.cc" line="1773"/>
         <source>Look up &quot;%1&quot; in &amp;New Tab</source>
         <translation>Serchar «%1» in &amp;nov carte</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1814"/>
+        <location filename="../articleview.cc" line="1778"/>
         <source>Send &quot;%1&quot; to input line</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../articleview.cc" line="1784"/>
         <location filename="../articleview.cc" line="1820"/>
-        <location filename="../articleview.cc" line="1856"/>
         <source>&amp;Add &quot;%1&quot; to history</source>
         <translation>&amp;Adjunter «%1» al diarium</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1834"/>
+        <location filename="../articleview.cc" line="1798"/>
         <source>Look up &quot;%1&quot; in %2</source>
         <translation>Serchar «%1» in %2</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1842"/>
+        <location filename="../articleview.cc" line="1806"/>
         <source>Look up &quot;%1&quot; in %2 in &amp;New Tab</source>
         <translation>Serchar «%1» in %2, in &amp;nov carte</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1990"/>
+        <location filename="../articleview.cc" line="1954"/>
         <source>Save sound</source>
         <translation>Gardar li son</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="1992"/>
+        <location filename="../articleview.cc" line="1956"/>
         <source>Sound files (*.wav *.ogg *.mp3 *.mp4 *.aac *.flac *.mid *.wv *.ape);;All files (*.*)</source>
         <translation>Files de son (*.wav *.ogg *.mp3 *.mp4 *.aac *.flac *.mid *.wv *.ape);;Omni files (*.*)</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2005"/>
+        <location filename="../articleview.cc" line="1969"/>
         <source>Save image</source>
         <translation>Gardar li image</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2007"/>
+        <location filename="../articleview.cc" line="1971"/>
         <source>Image files (*.bmp *.jpg *.png *.tif);;All files (*.*)</source>
         <translation>Files de images (*.bmp *.jpg *.png *.tif);;Omni files (*.*)</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2062"/>
+        <location filename="../articleview.cc" line="2026"/>
         <source>Failed to play sound file: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2077"/>
+        <location filename="../articleview.cc" line="2041"/>
         <source>Failed to create temporary file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2088"/>
+        <location filename="../articleview.cc" line="2052"/>
         <source>Failed to auto-open resource file, try opening manually: %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2111"/>
+        <location filename="../articleview.cc" line="2075"/>
         <source>WARNING: %1</source>
         <translation>AVISE: %1</translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2111"/>
+        <location filename="../articleview.cc" line="2075"/>
         <source>The referenced resource failed to download.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../articleview.cc" line="2118"/>
+        <location filename="../articleview.cc" line="2082"/>
         <source>WARNING: Audio Player: %1</source>
         <translation>AVISE: Reproductor de audio: %1</translation>
     </message>
@@ -3214,30 +3214,6 @@ To find &apos;*&apos;, &apos;?&apos;, &apos;[&apos;, &apos;]&apos; symbols use &
     </message>
 </context>
 <context>
-    <name>Options</name>
-    <message>
-        <location filename="../options.ui" line="13"/>
-        <source>Options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../options.ui" line="19"/>
-        <source>Imagine searching for the word &apos;cats&apos;. One dictionary lists
-it as a synonym for &apos;cat&apos;, another one only knows &apos;cat&apos;
-alone. With this option on, the first dictionary would help
-discover the main word &apos;cat&apos; which would be added to the
-query, and both dictionaries would include a definition for
-&apos;cat&apos; in response to the &apos;cats&apos; query. This is very useful in
-most cases, and thus it is recommended to keep this on.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../options.ui" line="28"/>
-        <source>Inject main forms of synonyms into search queries</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>OrderAndProps</name>
     <message>
         <location filename="../orderandprops.ui" line="14"/>
@@ -4272,11 +4248,7 @@ from Stardict, Babylon and GLS dictionaries</source>
     <name>QObject</name>
     <message>
         <location filename="../aard.cc" line="449"/>
-<<<<<<< HEAD
         <location filename="../dsl.cc" line="1775"/>
-=======
-        <location filename="../dsl.cc" line="1767"/>
->>>>>>> Linux : support TTS
         <source>Article loading error</source>
         <translation>Errore evenit cargante un articul</translation>
     </message>
@@ -4441,38 +4413,22 @@ from Stardict, Babylon and GLS dictionaries</source>
 <context>
     <name>ResourceToSaveHandler</name>
     <message>
-<<<<<<< HEAD
         <location filename="../articleview.cc" line="2999"/>
-=======
-        <location filename="../articleview.cc" line="3039"/>
->>>>>>> Linux : support TTS
         <source>ERROR: %1</source>
         <translation>ERRORE: %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../articleview.cc" line="2999"/>
-=======
-        <location filename="../articleview.cc" line="3039"/>
->>>>>>> Linux : support TTS
         <source>Resource saving error: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../articleview.cc" line="3025"/>
-=======
-        <location filename="../articleview.cc" line="3065"/>
->>>>>>> Linux : support TTS
         <source>WARNING: %1</source>
         <translation>AVISE: %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../articleview.cc" line="3025"/>
-=======
-        <location filename="../articleview.cc" line="3065"/>
->>>>>>> Linux : support TTS
         <source>The referenced resource failed to download.</source>
         <translation type="unfinished"></translation>
     </message>
